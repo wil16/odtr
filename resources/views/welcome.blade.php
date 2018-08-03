@@ -39,7 +39,7 @@
                               </div>
 
                               <div class="form-group row">
-                                  <div class="col-md-3 text-md-right"><i class="fas fa-unlock fa-2x"></i></div>
+                                  <div class="col-md-3 text-md-right"><i class="fas fa-lock fa-2x"></i></div>
                                   <div class="col-md-7">
                                       <input id="password" type="password" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" required>
                                       @if ($errors->has('password'))
